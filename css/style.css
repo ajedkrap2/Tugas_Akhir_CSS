@@ -1,0 +1,196 @@
+@font-face {
+  font-family: alatsi !important;
+  src:url("Alatsi-Regular.ttf");
+}
+
+body{
+  font-family: alatsi !important;
+  background-color: #b1d5fb;
+  z-index: -2;
+}
+
+span{
+  color: grey;
+}
+
+#bg1{
+  height: 600px;
+  z-index: -1;
+  display: block;
+  background-image: url("/assets/img/makassar.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#bg2{
+  height: 600px;
+  z-index: -1;
+  display: block;
+  background-image: url("/assets/img/jogja.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#bg3{
+  height: 600px;
+  z-index: -1;
+  display: block;
+  background-image: url("/assets/img/bekasi.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.nav-primary{
+  z-index: 0;
+  margin-top: 16px;
+  padding: 14px 30px;
+  box-shadow: 0px 0px 30px black;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #7bbbff !important;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: alatsi !important;
+}
+
+#subscribe{
+  color: #7bbbff;
+  text-transform: uppercase;
+}
+
+
+#nav-links a{
+  padding : 0px 16px;
+  letter-spacing: 2px;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+#nav-links a:hover{
+  color: black !important;
+}
+
+.navbar a:hover{
+  color: black !important;
+}
+
+#nav-icon{
+  font-size: 22px !important;
+}
+
+.nav-secondary{
+  z-index: 0;
+  top: 0px;
+  color: #ffffff ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: linear-gradient(to top, #b1d5fb 0%, #61a7f2 50%);
+}
+
+.nav-secondary .navbar {
+  overflow: hidden;
+}
+
+#column{
+  color: white;
+  text-shadow: 0px 0px 10px #222222;
+  padding: 0 0 2% 5%;
+}
+
+#quote{
+  color: white;
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  font-weight: 100;
+  height: 420px;
+  background-image: url("/assets/img/octaviopaz.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: 92% 100%;
+}
+
+#gallery{
+  height: 100%;
+  top : 0px;
+}
+
+video {
+  display: block !important;
+}
+
+.row {
+  height: auto;
+  width: 100%;
+}
+
+#subtitle {
+  background-image: url("/assets/img/gallery.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 150px;
+  border: 1px solid black;
+}
+
+#title {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Helvetica Neue";
+  font-weight: 100;
+}
+
+#cosplay {
+  background-color: #9f82ce;
+}
+
+#pahawang {
+  background-color: #4f97A3;
+}
+
+#profile {
+  background-color: black;
+  background-image: url("/assets/img/bg-profile.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+svg {
+  z-index: 1;
+}
+
+.footer{
+  border: 1px solid black;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: -1;
+}
+
+#footer-text{
+  color: black !important;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+}
+
+#footer-text a{
+  color: inherit;
+}
+
+#footer-text a:hover{
+  color: #7bbbff;
+}
